@@ -53,11 +53,11 @@
     border: 2px solid red;
     border-radius: 40px;
     font-size: 16px;
-    color: red;
+    color: white;
     padding: 20px 45px 20px 20px;
   }
 .input-box input::placeholder {
-  color: red;
+  color: white;
 }
 .input-box i {
     position: absolute;
