@@ -22,7 +22,7 @@
     border: 2px solid red;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0 , .2);
-    color: red;
+    color: black;
     border-radius: 10px;
     padding: 30px 40px;
     right: 150px;
@@ -53,11 +53,11 @@
     border: 2px solid red;
     border-radius: 40px;
     font-size: 16px;
-    color: white;
+    color: black;
     padding: 20px 45px 20px 20px;
   }
 .input-box input::placeholder {
-  color: white;
+  color: black;
 }
 .input-box i {
     position: absolute;
