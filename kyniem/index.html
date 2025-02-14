@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hedlinecontainer">
+    <div id="shine">
+      <span>H</span><span>a</span><span>p</span><span>p</span><span>y</span>
+      <span> </span>
+      <span>V</span><span>a</span><span>l</span><span>e</span><span>n</span><span>t</span><span>i</span><span>n</span><span>e</span><span>’</span><span>s</span>
+      <span> </span>
+      <span>D</span><span>a</span><span>y</span><span>💞</span>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <img src="../img/ky_niem_1.jpg" alt="a lovely kiss in the night">
+    <img src="../img/ky_niem_2.jpg" alt="a women inside a car">
+    <img src="../img/ky_niem_3.jpg" alt="a baby">
+    <img src="../img/ky_niem_4.jpg" alt="a girl in the forest">
+    <img src="../img/ky_niem_2.jpg" alt="a girl">
+  </div>
+
+  <div id="actionContainer">
+    <button id="playButton"><img src="../img/play.png" alt=""></button>
+    <p id="playText" class="text-gif">Ấn vào nút play</p>
+    <img id="giftBox" src="../img/gif.png" alt="Gift Box" style="display: none;">
+    <p id="giftText" class="text-gif" style="display: none;">Ấn vào hộp quà</p>
+</div>
+  <div class="overlay" id="videoOverlay">
+    <span class="close-btn" onclick="closeVideo()">&times;</span>
+    <video id="videoPlayer" controls>
+      <source src="../img/clip_1.mp4" type="video/mp4">
+    </video>
+  </div>
+  <h1></h1>
+  <script src="script.js"></script>
+</body>
+</html>
